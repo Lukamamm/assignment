@@ -1,6 +1,6 @@
 FROM python:3.12-slim
 
-COPY app.py /app
+COPY app.py .
 
 RUN pip install flask
 
